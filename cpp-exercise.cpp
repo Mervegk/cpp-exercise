@@ -1,11 +1,23 @@
 ﻿// cpp-exercise.cpp : Bu dosya 'main' işlevi içeriyor. Program yürütme orada başlayıp biter.
 //
 
+//#include "stdafx.h"
 #include <iostream>
+
+using namespace std;
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	/* Tip Dönüşümü Başlangıç*/
+	int num = 9;
+	float a;
+
+	a = (float)num / 4;
+
+	cout << "a: " << a << endl;
+
+	/* Tip Dönüşümü Son */
 }
 
 // Programı çalıştır: Ctrl + F5 veya Hata Ayıkla > Hata Ayıklamadan Başlat menüsü
