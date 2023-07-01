@@ -9,15 +9,27 @@ using namespace std;
 
 int main()
 {
-	/* Tip Dönüşümü Başlangıç*/
-	int num = 9;
+	/* TİP DÖNÜŞÜMÜ BAŞLANGIÇ */
+	/* int num = 9;
 	float a;
 
 	a = (float)num / 4;
 
-	cout << "a: " << a << endl;
+	cout << "a: " << a << endl; */
+	/* TİP DÖNÜŞÜMÜ SON */
 
-	/* Tip Dönüşümü Son */
+	float a, b, c, d;
+
+	cout << "First number: \n" << endl;
+	cin >> a;
+	cout << "Second number: \n" << endl;
+	cin >> b;
+	cout << "Third number: \n" << endl;
+	cin >> c;
+	d = a + b + c;
+	cout << "Square: " << d * d << endl;
+
+
 }
 
 // Programı çalıştır: Ctrl + F5 veya Hata Ayıkla > Hata Ayıklamadan Başlat menüsü
