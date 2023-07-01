@@ -9,25 +9,28 @@ using namespace std;
 
 int main()
 {
-	/* TİP DÖNÜŞÜMÜ BAŞLANGIÇ */
-	/* int num = 9;
-	float a;
+	
+	int n1, n2, n3, n4, r1, r2, r3;
+	cout << "First number: " << endl;
+	cin >> n1;
+	cout << "\n" << endl;
+	cout << "Second number: " << endl;
+	cin >> n2;
+	cout << "\n" << endl;
+	cout << "Third number: " << endl;
+	cin >> n3;
+	cout << "\n" << endl;
+	cout << "Fourth number: " << endl;
+	cin >> n4;
+	cout << "\n" << endl;
 
-	a = (float)num / 4;
+	r1 = --n1 + n2;
+	r2 = ++n3 * n4;
 
-	cout << "a: " << a << endl; */
-	/* TİP DÖNÜŞÜMÜ SON */
+	r3 = r1 + r2;
 
-	float a, b, c, d;
+	cout << "Result: " << r3 % 2 << endl;
 
-	cout << "First number: \n" << endl;
-	cin >> a;
-	cout << "Second number: \n" << endl;
-	cin >> b;
-	cout << "Third number: \n" << endl;
-	cin >> c;
-	d = a + b + c;
-	cout << "Square: " << d * d << endl;
 
 
 }
