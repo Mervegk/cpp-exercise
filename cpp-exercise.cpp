@@ -10,26 +10,20 @@ using namespace std;
 int main()
 {
 	
-	int n1, n2, n3, n4, r1, r2, r3;
+	int n1, n2, r1, r2;
+	string  res;
 	cout << "First number: " << endl;
 	cin >> n1;
 	cout << "\n" << endl;
 	cout << "Second number: " << endl;
 	cin >> n2;
-	cout << "\n" << endl;
-	cout << "Third number: " << endl;
-	cin >> n3;
-	cout << "\n" << endl;
-	cout << "Fourth number: " << endl;
-	cin >> n4;
-	cout << "\n" << endl;
 
-	r1 = --n1 + n2;
-	r2 = ++n3 * n4;
+	p1 = (n1 % 2 == 0 && n2 % 2 == 0) ? "İkisi de çift" : (n1 % 2 != 0 && n2 % 2 != 0) ? "İkisi de tek"  :  "Farklı sonuç";
 
-	r3 = r1 + r2;
+	cout << res;
 
-	cout << "Result: " << r3 % 2 << endl;
+
+	
 
 
 
