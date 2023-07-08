@@ -41,7 +41,6 @@ int main() {
 	cout << "Cube of mods: " << c * c * c << endl;
 	/* KALANLARIN KÜPÜ SON */
 
-
 /* BİR EKSİK BİR FAZLA MOD BAŞLANGIÇ */
 	int n1, n2, n3, n4, r1, r2, r3;
 	cout << "First number: " << endl;
@@ -64,4 +63,18 @@ int main() {
 
 	cout << "Result: " << r3 % 2 << endl;
 /* BİR EKSİK BİR FAZLA MOD SON */
+
+/* NESTED TERNARY  BAŞLANGIÇ */
+	int n1, n2, r1, r2;
+	string  res;
+	cout << "First number: " << endl;
+	cin >> n1;
+	cout << "\n" << endl;
+	cout << "Second number: " << endl;
+	cin >> n2;
+
+	p1 = (n1 % 2 == 0 && n2 % 2 == 0) ? "İkisi de çift" : (n1 % 2 != 0 && n2 % 2 != 0) ? "İkisi de tek" : "Farklı sonuç";
+
+	cout << res;
+/* NESTED TERNARY  SON */
 }

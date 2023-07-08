@@ -10,17 +10,51 @@ using namespace std;
 int main()
 {
 	
-	int n1, n2, r1, r2;
-	string  res;
-	cout << "First number: " << endl;
+	int n1, n2, n3;
+	int r1, r2, r3;
+
+	cout << "First number: ";
 	cin >> n1;
-	cout << "\n" << endl;
-	cout << "Second number: " << endl;
+
+	cout << "Second number: ";
 	cin >> n2;
 
-	p1 = (n1 % 2 == 0 && n2 % 2 == 0) ? "İkisi de çift" : (n1 % 2 != 0 && n2 % 2 != 0) ? "İkisi de tek"  :  "Farklı sonuç";
+	cout << "Third number: ";
+	cin >> n3;
+	cout << "\n" << endl;
+	if (n1 > n2 && n1 > n3) {
+		r1 = n2 + n3;
+		cout << "Sum of the small numbers: " << r1 << endl;
+		if (r1 > n1) {
+			cout << "Congratulations!" << endl;
+		}
+		else {
+			cout << "Unfortunately" << endl;
+		}
+	}
+	else if (n2 > n1 && n2 > n3) {
+		r1 = n1 + n3;
+		cout << "Sum of the small numbers: " << r1 << endl;
+		if (r1 > n2) {
+			cout << "Congratulations!" << endl;
+		}
+		else {
+			cout << "Unfortunately" << endl;
+		}
+	}
+	else if (n3 > n1 && n3 > n2) {
+		r1 = n2 + n1;
+		cout << "Sum of the small numbers: " << r1 << endl;
+		if (r1 > n3) {
+			cout << "Congratulations!" << endl;
+		}
+		else {
+			cout << "Unfortunately" << endl;
+		}
+	}
+	else
+		return 0;
 
-	cout << res;
 
 
 	
